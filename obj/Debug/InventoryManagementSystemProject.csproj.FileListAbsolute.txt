@@ -1,0 +1,16 @@
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\bin\Debug\InventoryManagementSystemProject.exe.config
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\bin\Debug\InventoryManagementSystemProject.exe
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\bin\Debug\InventoryManagementSystemProject.pdb
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.csprojResolveAssemblyReference.cache
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.Form1.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.Properties.Resources.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.csproj.GenerateResource.Cache
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.exe
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.pdb
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.CategoryManagement.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.ProductManagement.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.ADMINSECTION.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.SellerManagement.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.SalesAndOrders.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.OrdersSection.resources
+D:\Fall(20-21)\C#\FinalTermProject\InventoryManagementSystemProject\obj\Debug\InventoryManagementSystemProject.SELLERSECTION.resources
