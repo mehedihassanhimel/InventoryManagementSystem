@@ -1,0 +1,67 @@
+//SqlConnection connection = new SqlConnection();
+            
+            //connection.ConnectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=C:\\Users\\Tafsir\\Documents\\Inventorydb.mdf;Integrated Security=True;Connect Timeout=30";
+            ////connection.ConnectionString = "data source = DESKTOP-F3ODPQ5; database = Inventorydb; " + "integrated security = SSPI ";
+            //string UId = userIdtextBox.Text;
+            //string UName = userNametextBox.Text;
+            //string UPassword = userPasswordtextBox.Text;
+            //string UPhone = userPhonetextBox.Text;
+
+            //string sqlQuery = "INSERT INTO UserTable1 VALUES("+UId+"','"+UName+"','"+UPassword+"','"+UPhone+")";
+
+            //using (SqlCommand command = new SqlCommand(sqlQuery, connection))
+            //{
+            //    connection.Open();
+
+            //    command.ExecuteNonQuery();
+            //    MessageBox.Show("User Added Successfully");
+            //    connection.Close();
+            //}
+
+
+
+
+//////////////////////////////////////////////////////////////
+
+
+
+//string myQuery = "select * from UserTable1";
+            //SqlCommand command = new SqlCommand(myQuery, con);
+            //con.Open();
+            //SqlDataReader reader = command.ExecuteReader();
+            //BindingSource source = new BindingSource();
+            //source.DataSource = reader;
+            //userDataGridView.DataSource = source;
+            //con.Close();
+
+
+//////////////////////////////////////////////////////////////
+
+//if(userDataGridView.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null )
+            //{
+            //    userDataGridView.CurrentRow.Selected = true;
+            //    userIdtextBox.Text = userDataGridView.Rows[e.RowIndex].Cells["UserId"].FormattedValue.ToString();
+            //    userNametextBox.Text = userDataGridView.Rows[e.RowIndex].Cells["UserName"].FormattedValue.ToString();
+            //    userPasswordtextBox.Text = userDataGridView.Rows[e.RowIndex].Cells["UserPassword"].FormattedValue.ToString();
+            //    userPhonetextBox.Text = userDataGridView.Rows[e.RowIndex].Cells["UserPhone"].FormattedValue.ToString();
+            //}
+
+//////////////////////////////////////////////////////////////
+
+ void SelectCategoryList()
+        {
+            string myQuery = "select * from CategoryTable1 where CategoryName='"+selectPCategorycomboBox.SelectedValue.ToString()+"'";
+            SqlCommand cmd = new SqlCommand(myQuery, con);
+
+
+
+            con.Open();
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("CategoryName", typeof(string));
+            SqlDataReader reader = cmd.ExecuteReader();
+            dataTable.Load(reader);
+            productCategorycomboBox.ValueMember = "CategoryName";
+            productCategorycomboBox.DataSource = dataTable;
+            con.Close();
+
+        }
